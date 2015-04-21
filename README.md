@@ -21,15 +21,19 @@ The user types in their name, for example:
 The program outputs a cheer in the following format:
 
 > Give me an... A
+
 > Give me a... B
+
 > Give me a... B
+
 > Give me a... Y
+
 > Abby’s just GRAND!
 
-* Follow the proper grammatical for a and an. The rule is based on whether the spelling of a letter would begin with a vowel.
-* Ignore all special characters (i.e. non-word characters) when printing the cheer (e.g. "Give me a...")
-* Print the user's name out as it was originally input for the "just GRAND" line
 * If there was no input, ask again until valid input is provided
+* Follow the proper grammatical for a and an. The rule is based on whether the spelling of a letter would begin with a vowel.
+* Skip non-word characters when printing the cheer (e.g. "Give me a..." lines)
+* Print the user's name out as it was originally input for the "just GRAND" line
 
 After printing out the user's cheer, the program asks:
 
